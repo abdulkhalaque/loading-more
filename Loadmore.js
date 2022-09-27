@@ -17,7 +17,7 @@ const Loadmore = () => {
     }, []);
     return (
       <>
-        <div className="spa">
+      
           <div className="container">
             {items.slice(0, visible).map((item) => (
               <div className="card">
@@ -29,7 +29,7 @@ const Loadmore = () => {
             ))}
           </div>
           <button onClick={showMoreItems}>Load More</button>
-        </div>
+       
       </>
     );
 }
